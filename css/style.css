@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+  
+}
+
+.padding-0 {
+  padding-right: 0;
+  padding-left: 0;
+}
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 220px;
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+	font-family: merienda;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+	font-family: poppins;
+}
+.carousel-caption a {
+	text-transform: uppercase;
+	background: white;
+	padding: 15px 35px;
+	display: inline-block;
+	color: black;
+	margin-top: 15px;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 5px;
+}
+.navbar-nav a {
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.navbar-light .navbar-brand {
+	color: #fff;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+.navbar-nav {
+	text-align: center;
+}
+.nav-link {
+	padding: .2rem 1rem;
+}
+.nav-link.active, .nav-link:focus {
+	color: #fff;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+.w-100 {
+	height: 100vh;
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav.ml-auto {
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.navbar-nav a {
+		font-size: 14px;
+		font-weight: normal;
+	}
+}
+/*************************************** new**************************************/
+/* @media screen and (max-width: 500px) and (min-width: 280px) {
+
+	.banner-height{
+		height: 50vh !important;
+	}
+  } */
+  @media screen and (max-width: 560px)  {
+
+  .coll-item{
+		display :none;
+		
+  }
+}
+
+/*************************************** new**************************************/
+
+  
+/*  start of collection */
+.coll-fimg{
+	height:109vh !important;
+
+}
+.coll-caption{
+display: flex;
+align-items:flex-end;
+justify-content: center;
+}
+
+.limg-caption{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items:flex-start;
+
+}
+
+.coll-btn{
+	text-transform: uppercase;
+	background: white;
+	padding: 15px 35px;
+	display: inline-block;
+	color: black;
+	margin-top: 15px;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+/*  end of collection */
+.name{
+	font-size: 14px;
+}
+/* <!-- start of quote --> */
+.offer-postion{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:flex-start;
+	align-content:center;
+}
+/* <!-- start of offer --> */
+.offer-bg{
+	background-image: url("../imgs/bgoffer/images.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+
+}
+.sale-position{
+	position: absolute;
+	
+	top:-15px;
+	right:-15px;
+
+}
+.sale{
+	background: #0274BE;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+	color:white;
+	padding: 10px;
+	
+}
+
+
+.card-star i{
+	color:#026DB2;
+}
+
+.foot{
+	background-color: #424242;
+}
+.foot-caption{
+	text-align: justify;
+}
+.foot-caption a{
+	color:gray;
+}
+.foot-caption a:hover{
+	color:white;
+	text-decoration: none;
+}
+.foot-icon{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
+.foot-icon i{
+	color: #026DB2;
+	
+	
+}
+
+/************************************* About *********************************************/
+                        /* STRAT OF nav */
+						.banner-image {
+							position: relative;
+							background-image: url('../imgs/home-slider1.jpg');
+							background-size: cover;
+							width: 100%;
+							height: 75vh;
+							font-size: 36px !important;
+				             }	
+						  .nav-head{
+							  font-size: 36px !important;
+						  }	
+						
+						.onphoto{
+							position: absolute;
+							top: 0;
+							left: 0;
+							width: 100%;
+							height: 75vh;
+							background:rgba(94,87,87,0.5) ;
+						}			
+                        /* END OF NAV */
+.card-border{
+	position: relative;
+	border: none !important;
+	border-radius: 50%;
+	/* width: 100% !important;
+	height: 100% !important; */
+	
+}
+
+.card-caption{
+	
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	z-index: 2;
+	color: black;
+}
+.overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width:93%;
+	height: 100%;
+	background:rgba(242, 242, 241,0.75) ;
+	z-index: 1;
+	/* overflow: hidden; */
+	
+
+}
+/* .img-animation{
+	transition: transform .2s; 
+	
+} */
+
+
+.img-animation:hover{
+	/* transition-property: transform;
+	transition-duration:0.3s; */
+	 /* transform: scale(1.5); */
+	transform: rotate(10deg); 
+
+
+}
+/*************************************8 start of lookbook *******************************/
+ /* STRAT OF nav */
+ .banner-look-image {
+	position: relative;
+	background-image: url('../imgs/lookbook/lookbook-banner.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	font-size: 36px !important;
+	 }	
+  .nav-head{
+	  font-size: 36px !important;
+  }	
+
+.onlookphoto{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height:100vh;
+	background:rgba(99,98,98,0.7) ;
+}			
+/* END OF NAV */
+
+/***************************** start of lookbook *********************************/
+/* problem */
+.lookbook-layer-img{
+	position: relative !important;
+	z-index: 1;
+}
+.ookbook-layer{
+	position: absolute !important;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height:100vh !important;
+	background:rgba(44,82,155,0.9) !important;
+	z-index: 2;
+}
+
+/**************************************** contactus *********************************/
+.banner-contact-image{
+	position: relative;
+							background-image: url('../imgs/home-slider2-1.jpg');
+							background-size: cover;
+							width: 100%;
+							height: 75vh;
+							font-size: 36px !important;
+}
+
+.color{
+	background-color: #FAFAFA !important;
+	border-color: #EAEAEA !important;
+}
+
+/************************************* card *************************/
+
+.line{
+	width: 100%;
+	height: 2px;
+	margin: 20px ;
+	text-align: center;
+	font-size: 28px;
+	position: relative;
+	background-color: #0274BE;
+  }
+  .line:after {
+	content: '';
+	width: 80%;
+	border-top: solid 2px #0274BE;
+	position: absolute;
+	left: -5%;
+	top: -5%;
+	z-index: 1;
+  }
+
+  /********************************* shop *************************/
+  .shop-btn{
+	  border:solid 1px #EAEAEA !important;
+  }
